@@ -1,3 +1,4 @@
 beego-demo
 *.swp
 vendor/
+.idea

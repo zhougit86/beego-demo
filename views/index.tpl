@@ -75,7 +75,29 @@
 			    	Contact me: {{.Email}}
 			    </p>
 			  </div>
+
 			</div>
+			<form action="/v1/users/login" method="post">
+
+手机号码：<input type="text" name="phone" value="13508712076"><br />
+密码：<input type="text" name="password" value="12345678"><br />
+
+<input type="submit" value="提交">
+<input type="reset">
+
+</form>
+
+<p>shit</p>
+<form action="/v1/users/register" method="post">
+
+手机号码：<input type="text" name="phone" value="13508712076"><br />
+姓名：<input type="text" name="name" value="张三"><br />
+密码：<input type="text" name="password" value="12345678"><br />
+
+<input type="submit" value="提交">
+<input type="reset">
+
+</form>
 			</div>
 		</header>
 	</body>

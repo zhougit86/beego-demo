@@ -1,0 +1,13 @@
+2017/06/06 21:52:39 [D] [common.go:197] AuthString:  
+2017/06/06 21:52:39 [E] [common.go:201] AuthString invalid:  
+2017/06/06 21:54:49 [D] [common.go:197] AuthString:  
+2017/06/06 21:54:49 [E] [common.go:201] AuthString invalid:  
+2017/06/06 21:54:50 [D] [common.go:197] AuthString:  
+2017/06/06 21:54:50 [E] [common.go:201] AuthString invalid:  
+2017/06/06 21:54:58 [D] [users.go:76] ParseLoginForm: &{13508712076 12345678} 
+2017/06/06 21:54:58 [E] [users.go:87] FindUserById: not found 
+2017/06/06 21:56:29 [D] [users.go:31] ParseRegsiterForm: &{13508712076 张三 12345678} 
+2017/06/06 21:56:29 [D] [users.go:48] NewUser: &{13508712076 张三 05cd4990cc322d52ab6996c92aa5d308d3c7b33cee2cb2f240c3b9e04f4a16c971fa358016c3927c1821b05171cf373c87c0cef1af4a619059898e2cd64897c5 88b173af79fbda304f8519a5c505c5fb6bf2865ce4126c6d8161b89705c8adfd9ccfd24c85c79b40255daf79024d2504980a5830b6dc768c7b4994edc5b882b8 2017-06-06 21:56:29.0757761 +0800 CST} 
+2017/06/06 21:56:29 [D] [statistics.go:32] MULTI HINCRBY for new user registeration reply: [1 1 1 1] 
+2017/06/06 21:56:41 [D] [users.go:76] ParseLoginForm: &{13508712076 12345678} 
+2017/06/06 21:56:41 [D] [users.go:96] UserInfo: &{13508712076 张三 05cd4990cc322d52ab6996c92aa5d308d3c7b33cee2cb2f240c3b9e04f4a16c971fa358016c3927c1821b05171cf373c87c0cef1af4a619059898e2cd64897c5 88b173af79fbda304f8519a5c505c5fb6bf2865ce4126c6d8161b89705c8adfd9ccfd24c85c79b40255daf79024d2504980a5830b6dc768c7b4994edc5b882b8 2017-06-06 21:56:29.075 +0800 CST} 
